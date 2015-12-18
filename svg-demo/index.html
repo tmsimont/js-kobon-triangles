@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="stylesheet" href="nouislider.min.css" type="text/css" />
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script type="text/javascript" src="../kobon.js"></script>
+	<script type="text/javascript" src="../kobonSVG.js"></script>
+	<script type="text/javascript" src="../gauss.js"></script>
+	<script type="text/javascript" src="nouislider.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>JavaScript Kobon triangle generator</h1>
+		<p>Below is a demo of the SVG output. See <a href="http://www.trevorsimonton.com/cs/projects/2015/12/10/kobon-triangle-generator-javascript.html">my blog</a> for a complete write-up.</p>
+		<div id="kobon-demo">
+			<div id="controls">
+				<div class="param">
+					<div class='label'>number of lines</div>
+					<div class="slider-widget">
+						<div class="slider" id="slider_numlines"></div>
+						<div class="value" id="value_numlines"></div>
+					</div>
+				</div>
+				<div class="param">
+					<div class='label'>b range</div>
+					<div class="slider-widget">
+						<div class="slider" id="slider_brange"></div>
+						<div class="value" id="value_brange"></div>
+					</div>
+				</div>
+				<div class="param">
+					<div class='label'>x spacing</div>
+					<div class="slider-widget">
+						<div class="slider" id="slider_xspace"></div>
+						<div class="value" id="value_xspace"></div>
+					</div>
+				</div>	
+				<div class="gocontainer">
+				<a class="button" id="go" class="button" href="javascript:void(0)">generate</a>
+				</div>
+			<div id="display-output">
+			<div id="result">
+			</div>
+			<div id="wrapper">
+			</div>
+			</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
