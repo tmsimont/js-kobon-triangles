@@ -27,4 +27,4 @@ var numkobons =
 
 
 console.log(numkobons + " triangles with "+args[0]+" lines");	
-console.log(JSON.stringify(generator.getLines(), null, 2));
+console.log(JSON.stringify(generator.getSaveData(), null, 2));

@@ -118,7 +118,7 @@ function KobonGenerator() {
 		return xbs;
 	}
 
-	this.getLines = function() {
+	this.getSaveData = function() {
 		return input;
 	}
 
