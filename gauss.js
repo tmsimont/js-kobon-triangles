@@ -1,5 +1,5 @@
 /**
- * Gaussian eliminatino by @itsravenous
+ * Gaussian eliminatino by itsravenous
  * https://github.com/itsravenous/gaussian-elimination
  */
 var abs = Math.abs;
