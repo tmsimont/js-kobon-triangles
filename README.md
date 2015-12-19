@@ -1,3 +1,6 @@
+#Kobon triangles in JavaScript
+For a complete write-up and working example of SVG, [see my blog](http://www.trevorsimonton.com/cs/projects/2015/12/10/kobon-triangle-generator-javascript.html).
+
 ##usage
 
 ### in-browser with SVG
@@ -34,4 +37,3 @@ This will generate 11 triangles with 7 lines. The output is a JSON string that c
 
 If you put an impossible amount of triangles, you'll be waiting forever.
 
-For a complete write-up and working example of SVG, [see my blog](http://www.trevorsimonton.com/cs/projects/2015/12/10/kobon-triangle-generator-javascript.html).
