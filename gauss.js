@@ -1,3 +1,7 @@
+/**
+ * Gaussian eliminatino by itsraveenout
+ * https://github.com/itsravenous/gaussian-elimination
+ */
 var abs = Math.abs;
 var count = function (a) {
     return a.length;
