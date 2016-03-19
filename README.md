@@ -1,5 +1,5 @@
 #Kobon triangles in JavaScript
-For a complete write-up and working example of SVG, [see my blog](http://www.trevorsimonton.com/cs/projects/2015/12/10/kobon-triangle-generator-javascript.html).
+For a complete write-up and working example of SVG, [see my blog](http://www.trevorsimonton.com/projects/cs/2015/12/10/kobon-triangle-generator-javascript.html).
 
 ![screenshot](http://www.trevorsimonton.com/assets/posts/kobon/screenshot.png)
 
